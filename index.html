@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="Ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1, maximum-scale=2, minimum-scale=1, user-scalable=no">
+
+    <title>Pc title</title>
+    <!-- jQuery.min.js -->
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <!-- common.css -->
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <!-- Swiper selectlink -->
+    <script type="text/javascript" src="js/swiper.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+</head>
+<body>
+
+<div id="Header">
+
+    <div class="header-nav">
+        <div class="header-logo"></div>
+        <ul>
+            <li>pc</li>
+            <li>addontesttttttttttttttttt</li>
+            <li>about us</li>
+            <li>question</li>
+        </ul>
+    </div>
+    <!-- // .header-nav -->
+
+    <!-- slider main container -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">slide 1</div>
+            <div class="swiper-slide">slide 2</div>
+            <div class="swiper-slide">slide 3</div>
+        </div>
+
+        <!-- Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+    <!-- // .swiper-container -->
+
+</div>
+<!-- // #Header -->
+
+
+<div id="Article">
+
+</div>
+<!-- // #Article -->
+
+
+<div id="Footer">
+
+</div>
+<!-- // #Footer -->
+
+<!-- Initialize Swiper -->
+<script>
+  var mySwiper = new Swiper ('.swiper-container', {
+    direction: 'vertical',
+    slidesPerView: 1,
+    paginationClickable: true,
+    loop: true,
+    pagination: '.swiper-pagination',
+
+    // Navigation arrows
+    nextButton: '.swiper-button-next',
+    prevButton: '.swiper-button-prev'
+  })
+</script>
+</body>
+</html>
