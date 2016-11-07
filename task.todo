@@ -10,6 +10,8 @@ Header design:
 
 Main design guide:
   ☐ http://ecdemo83608.cafe24.com/ @high
+  ☐ http://sunrise.ru.com/_wdn/templates-html/bootstrap-unistore/  @critical
+
 
 
 Jscript reference:
@@ -17,3 +19,19 @@ Jscript reference:
       Swiper add HTML Layout.
 
 
+Daum openHtml and CSS guide:
+  1. display
+  2. overflow
+  3. float
+  4. position
+  5. z-index
+  6. width & height
+  7. margin & padding
+  8. border
+  9. font
+  10. background
+  11. etc (color, text-decoration, clear, text-indent...)
+
+background: bg-color, bg-image, position // bg-size, bg-repeat, bg-origin, bg-clip, bg-attachment, initial|inherit;
+
+font-style > font-variant > font-weight > font-size > line-height > font-family
