@@ -124,10 +124,37 @@ table {
                 text-align: center;
             }
 
-
-
-
-
+    .at-product {
+        overflow: hidden;
+        width: 100%;    height: 0 auto;
+        padding: 2rem;
+        background-color: grey;
+    }
+        .prod-sq {
+            margin: 0 3rem 2rem 0;
+            width: calc(100%/3.5);     height: 240px;
+            border: 1px solid #EAE7E7;
+        }
+        .prod-1 {
+            float: left;
+            background-color: #88BAC0;
+        }
+        .prod-2 {
+            float: left;
+            background-color:#9F7070;
+        }
+        .prod-3 {
+            float: left;
+            background-color:#E8B560;
+        }
+        .prod-4 {
+            float: left;
+            background-color:yellow;
+        }
+        .prod-5 {
+            float: left;
+            background-color:#D851BB;
+        }
 
 
 
